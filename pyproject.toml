@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "probability_calculator"
+version = "0.1.0"
+description = ""
+authors = ["Denise Turkova <denise.turkova@madetech.com>"]
+readme = "README.md"
+packages = [{include = "probability_calculator"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
