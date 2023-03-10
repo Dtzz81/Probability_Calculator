@@ -1,13 +1,14 @@
 [tool.poetry]
-name = "probability_calculator"
+name = "probability-calculator"
 version = "0.1.0"
 description = ""
-authors = ["Denise Turkova <denise.turkova@madetech.com>"]
+authors = ["dtzz81 <denisa.turkova@madetech.com>"]
 readme = "README.md"
 packages = [{include = "probability_calculator"}]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.11"
+pytest = "^7.2.2"
 
 
 [build-system]
