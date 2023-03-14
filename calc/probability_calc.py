@@ -1,11 +1,8 @@
-class Balls:
-    def __init__(self, name, count):
-        self.name = name
-        self.count = count
+import copy
+import random
+# Consider using the modules imported above.
+
+class Hat:
 
 
-def hat():
-    balls = {"blue":5,
-            }
-
-
+def experiment(hat, expected_balls, num_balls_drawn, num_experiments):

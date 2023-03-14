@@ -1,5 +1,7 @@
 import pytest
+from calc import probability_calc
 
+'''
 class Balls:
     def __init__(self, name):
         self.name = name
@@ -16,6 +18,7 @@ def hat(selected_balls):
 
 def test_balls_in_hat(selected_balls, hat):
     assert selected_balls in hat
+'''
 
 #There is a hat containing
 #5 blue balls, 4 red balls, 2 green balls.
